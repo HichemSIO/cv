@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Onglets</title>
+    <link rel="stylesheet" href="style.css" />
+ 
+
+  </head>
+  <body>
+    <div class="tabs">
+      <div
+        role="tablist"
+        aria-label="tabs component"
+        class="tabs-btn-container"
+      >
+        <button
+          role="tab"
+          aria-controls="panel-1"
+          id="tab-1"
+          type="button"
+          aria-selected="true"
+          tabindex="0"
+          class="tab active-tab"
+        >
+          CV
+        </button>
+        <button
+          role="tab"
+          aria-controls="panel-2"
+          id="tab-2"
+          type="button"
+          aria-selected="false"
+          tabindex="-1"
+          class="tab"
+        >
+         Lettre de motivation
+        </button>
+        <button
+          role="tab"
+          aria-controls="panel-3"
+          id="tab-3"
+          type="button"
+          aria-selected="false"
+          tabindex="-1"
+          class="tab"
+        >
+          contacte
+        </button>
+      </div>
+      <div
+        id="panel-1"
+        role="tabpanel"
+        tabindex="0"
+        aria-labelledby="tab-1"
+        class="tab-content active-tab-content"
+      >
+        <h3>CV</h3>
+        <p>
+          ZENAINI HICHEM <br>
+          73 Rue du Havre<br>
+           Aulnay-Sous-Bois  <br>
+            07-83-03-58-11 <br>
+          zenaini.hichem.sio@gmail.com
+          <br><br>
+          Expérience
+          </p>
+          <P>
+          2018<br>
+          Stage de 3eme (1semaine)<br>
+          Pâtissier, François la pâtisserie (Aulnay-Sous-Bois)
+          2022<br>
+          Opérateur de saisie, Buralgestion (Paris)  (1 mois)<br><br><br>
+          </P>
+          FORMATION<br>
+          2022-2023<br>
+          ACTUELLEMENT EN DEUXIEME ANNEE DE BTS SIO BREVET DE TECHNICIEN SUPERIEUR - SERVICES INFORMATIQUES AUX ORGANISATIONS OPTION SOLUTIONS LOGICIELLES ET APPLICATIONS METIERS
+          <br><br>
+          2020-2021<br>
+          BACCALAUREAT SCIENCES ET TECHNOLOGIES DE L'INDUSTRIE ET DU DEVELOPPEMENT DURABLE OPTION SYSTEMES D'INFORMATION ET NUMERIQUE.
+          MENTION ASSEZ BIEN<br>
+          (LYCEE VOILLAUME AULNAY-SOUS-BOIS)<br>
+          2017-2018<br>
+          BREVET DES COLLEGES<br>
+          MENTION ASSEZ BIEN<br>
+          (COLLEGE SIMONE VEIL AULNAY-SOUS-BOIS) <br>
+          
+        </P>
+        <P>
+          <br><br>
+          COMPETENCES<br>
+          •	Développement WEB :HTML5, PHP,CSS3,MYSQL.<br>
+          •	Langage de programmation : C#,Python.<br>
+          •	Logiciel: Visual Studio, Virtual Box<br>
+          •	Langue: Français, anglais.<br>
+          
+          
+        </p>
+      </div>
+
+      <div
+        id="panel-2"
+        role="tabpanel"
+        tabindex="0"
+        aria-labelledby="tab-2"
+        class="tab-content"
+      >
+        <h3>Lettre de motivation</h3>
+        <p>
+ Zenaini Hichem<br>
+  07-83-03-58-11<br>
+zenaini.hichem.sio@gmail.com<br>
+</p>
+<p></p>
+Madame, Monsieur, <br>
+
+Actuellement en deuxième année de BTS Sio : BREVET DE TECHNICIEN SUPÉRIEUR 
+SERVICESINFORMATIQUES AUX ORGANISATIONS OPTION SOLUTIONS LOGICIELLES ET APPLICATIONS,
+ je suis à la recherche d'un stage de deux mois pour la période allant du16 janvier au 10 mars. 
+ Je me permets donc de vous adresser ma candidature pour obtenir un stage au sein de votre établissement.
+ <br><br>
+ <p>
+Passionné par l'informatique depuis des années, j'ai acquis, dans le cadre de mes études, <br>
+les bases de la programmation HTML5, PHP, CSS3, MYSQL,C#,Python. Une bonne connaissance des <br>
+logiciels Visual Studio, Virtual Box, du matériel informatique et de la gestion des systèmes <br>
+d'information font également partie des compétences que je pourrais mettre au service de votre établissement.<br>
+<br></p>
+<p>
+Méthodique et rigoureux, je suis passionné de nouvelles technologies et je souhaite mettre mon dynamisme au service de votre entreprise.<br>
+<br></p>
+<p>
+Je me tiens également à votre disposition pour vous fournir d’éventuel informations complémentaires.<br>
+<br></p>
+<p>
+Dans cette attente, je vous prie de recevoir. Madame, Monsieur, l'expression de mes sentiments distingues.<br>
+
+
+        </p>
+      </div>
+
+      <div
+        id="panel-3"
+        role="tabpanel"
+        tabindex="0"
+        aria-labelledby="tab-3"
+        class="tab-content"
+      >
+        <h3>Contact</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
+          facere ducimus quas harum provident assumenda atque delectus odio.
+          Blanditiis totam optio vitae placeat alias. Fugiat magnam cupiditate
+          ab ipsum qui sapiente pariatur doloribus reiciendis adipisci enim
+          aliquam vero reprehenderit a quibusdam quas, dolores, debitis cumque
+          dolor ut atque voluptatem nobis voluptatibus velit accusamus! A ea
+          laudantium maxime eaque consequuntur veritatis!
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
